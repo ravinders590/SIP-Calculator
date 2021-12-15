@@ -20,7 +20,7 @@
 						'month_roi' => $_POST['month_roi'],
 						'total_time' => $_POST['total_time'],
 					);
-					// P × ((1 + i)n - 1) / i) × (1 + i)
+					
 					$invest = $data['month_invest'];
 					$returnRate = $data['month_roi'];
 					$year = $data['total_time'];
